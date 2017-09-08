@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Perceptron.dir/main.cpp.o CMakeFiles/Perceptron.dir/Perceptron.cpp.o  -o Perceptron 
