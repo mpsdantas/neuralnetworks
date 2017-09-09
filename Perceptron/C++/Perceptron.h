@@ -24,6 +24,7 @@ public:
     inline ~Perceptron(){clean();}
     void load(unsigned Cn, unsigned Cp, float** matrixTraining);
     void train();
+    bool allright();
     void getVectorWeight();
     float  getResult(float comparisonData[]);
 

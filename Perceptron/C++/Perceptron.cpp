@@ -35,13 +35,26 @@ void Perceptron::load(unsigned Cn, unsigned Cp, float** matrixTraining){
         for(unsigned j =0; j<p;j++) dataEntry[i][j] = matrixTraining[i][j];
     }
 }
+bool Perceptron::allright(){
+    float wE = 0;
+    unsigned i = 1;
+    while(i<n){
+        for(int j =0; j<p-1; j++) wE+=dataEntry[i][j]*weight[j];
+        if((wE>0 && dataEntry[i][p-1]==1) || (wE<0 && dataEntry[i][p-1]==-1)) i++;
+        else return false;
+        wE = 0;
+    }
+    return true;
+}
 void Perceptron::train() {
     float wE = 0;
-    for(unsigned i=0;i<n;i++){
+    unsigned i = 1;
+    for(int j =0; j<p-1;j++) weight[j] += dataEntry[0][j]*dataEntry[0][p-1];
+    while(!(allright())){
         for(unsigned j=0;j<p-1;j++) wE+=dataEntry[i][j]*weight[j];
-        if(!(wE>0 && dataEntry[i][p-1]==1) || (wE<0 && dataEntry[i][p-1]==-1)){
-            for(unsigned k=0;k<p-1;k++) weight[k]+=dataEntry[i][k]*dataEntry[i][p-1];
-        }
+        if(!((wE>0 && dataEntry[i][p-1]==1) || (wE<0 && dataEntry[i][p-1]==-1))) for(unsigned k=0;k<p-1;k++) weight[k]+=dataEntry[i][k]*dataEntry[i][p-1];
+        i++;
+        wE = 0;
     }
 }
 void Perceptron::getVectorWeight(){
@@ -50,7 +63,7 @@ void Perceptron::getVectorWeight(){
     }
 }
 float Perceptron::getResult(float comparisonData[]) {
-    float aux;
+    float aux = 0;
     for(unsigned i=0; i<p-1;i++){
         aux+=weight[i]*comparisonData[i];
     }
