@@ -37,7 +37,7 @@ void Perceptron::load(unsigned Cn, unsigned Cp, float** matrixTraining){
 }
 bool Perceptron::allright(){
     float wE = 0;
-    unsigned i = 1;
+    unsigned i = 0;
     while(i<n){
         for(int j =0; j<p-1; j++) wE+=dataEntry[i][j]*weight[j];
         if((wE>0 && dataEntry[i][p-1]==1) || (wE<0 && dataEntry[i][p-1]==-1)) i++;

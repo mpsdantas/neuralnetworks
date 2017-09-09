@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/marcus/Documentos/neuralnetworks/Perceptron/C++/Perceptron.cpp" "/home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug/CMakeFiles/Perceptron.dir/Perceptron.cpp.o"
-  "/home/marcus/Documentos/neuralnetworks/Perceptron/C++/main.cpp" "/home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug/CMakeFiles/Perceptron.dir/main.cpp.o"
+  "/home/marcus/Documentos/neuralnetworks/Perceptron/Perceptron.cpp" "/home/marcus/Documentos/neuralnetworks/Perceptron/cmake-build-debug/CMakeFiles/Perceptron.dir/Perceptron.cpp.o"
+  "/home/marcus/Documentos/neuralnetworks/Perceptron/main.cpp" "/home/marcus/Documentos/neuralnetworks/Perceptron/cmake-build-debug/CMakeFiles/Perceptron.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
