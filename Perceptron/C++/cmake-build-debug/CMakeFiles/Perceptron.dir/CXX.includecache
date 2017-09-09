@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcus/Documentos/neuralnetworks/Perceptron/C++/Perceptron.cpp
+Perceptron.h
+/home/marcus/Documentos/neuralnetworks/Perceptron/C++/Perceptron.h
+
+/home/marcus/Documentos/neuralnetworks/Perceptron/C++/Perceptron.h
+iostream
+-
+
+/home/marcus/Documentos/neuralnetworks/Perceptron/C++/main.cpp
+iostream
+-
+Perceptron.h
+/home/marcus/Documentos/neuralnetworks/Perceptron/C++/Perceptron.h
+

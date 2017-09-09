@@ -43,10 +43,10 @@ RM = /opt/clion-2017.2.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/marcus/Documentos/Neural networks/Perceptron"
+CMAKE_SOURCE_DIR = /home/marcus/Documentos/neuralnetworks/Perceptron/C++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/marcus/Documentos/Neural networks/Perceptron/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Perceptron.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Perceptron.dir/flags.make
 
 CMakeFiles/Perceptron.dir/main.cpp.o: CMakeFiles/Perceptron.dir/flags.make
 CMakeFiles/Perceptron.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marcus/Documentos/Neural networks/Perceptron/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Perceptron.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Perceptron.dir/main.cpp.o -c "/home/marcus/Documentos/Neural networks/Perceptron/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Perceptron.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Perceptron.dir/main.cpp.o -c /home/marcus/Documentos/neuralnetworks/Perceptron/C++/main.cpp
 
 CMakeFiles/Perceptron.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Perceptron.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marcus/Documentos/Neural networks/Perceptron/main.cpp" > CMakeFiles/Perceptron.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcus/Documentos/neuralnetworks/Perceptron/C++/main.cpp > CMakeFiles/Perceptron.dir/main.cpp.i
 
 CMakeFiles/Perceptron.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Perceptron.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marcus/Documentos/Neural networks/Perceptron/main.cpp" -o CMakeFiles/Perceptron.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcus/Documentos/neuralnetworks/Perceptron/C++/main.cpp -o CMakeFiles/Perceptron.dir/main.cpp.s
 
 CMakeFiles/Perceptron.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Perceptron.dir/main.cpp.o.provides.build: CMakeFiles/Perceptron.dir/m
 
 CMakeFiles/Perceptron.dir/Perceptron.cpp.o: CMakeFiles/Perceptron.dir/flags.make
 CMakeFiles/Perceptron.dir/Perceptron.cpp.o: ../Perceptron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marcus/Documentos/Neural networks/Perceptron/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Perceptron.dir/Perceptron.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Perceptron.dir/Perceptron.cpp.o -c "/home/marcus/Documentos/Neural networks/Perceptron/Perceptron.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Perceptron.dir/Perceptron.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Perceptron.dir/Perceptron.cpp.o -c /home/marcus/Documentos/neuralnetworks/Perceptron/C++/Perceptron.cpp
 
 CMakeFiles/Perceptron.dir/Perceptron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Perceptron.dir/Perceptron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marcus/Documentos/Neural networks/Perceptron/Perceptron.cpp" > CMakeFiles/Perceptron.dir/Perceptron.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcus/Documentos/neuralnetworks/Perceptron/C++/Perceptron.cpp > CMakeFiles/Perceptron.dir/Perceptron.cpp.i
 
 CMakeFiles/Perceptron.dir/Perceptron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Perceptron.dir/Perceptron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marcus/Documentos/Neural networks/Perceptron/Perceptron.cpp" -o CMakeFiles/Perceptron.dir/Perceptron.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcus/Documentos/neuralnetworks/Perceptron/C++/Perceptron.cpp -o CMakeFiles/Perceptron.dir/Perceptron.cpp.s
 
 CMakeFiles/Perceptron.dir/Perceptron.cpp.o.requires:
 
@@ -117,7 +117,7 @@ Perceptron: CMakeFiles/Perceptron.dir/main.cpp.o
 Perceptron: CMakeFiles/Perceptron.dir/Perceptron.cpp.o
 Perceptron: CMakeFiles/Perceptron.dir/build.make
 Perceptron: CMakeFiles/Perceptron.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marcus/Documentos/Neural networks/Perceptron/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Perceptron"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Perceptron"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Perceptron.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/Perceptron.dir/clean:
 .PHONY : CMakeFiles/Perceptron.dir/clean
 
 CMakeFiles/Perceptron.dir/depend:
-	cd "/home/marcus/Documentos/Neural networks/Perceptron/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/marcus/Documentos/Neural networks/Perceptron" "/home/marcus/Documentos/Neural networks/Perceptron" "/home/marcus/Documentos/Neural networks/Perceptron/cmake-build-debug" "/home/marcus/Documentos/Neural networks/Perceptron/cmake-build-debug" "/home/marcus/Documentos/Neural networks/Perceptron/cmake-build-debug/CMakeFiles/Perceptron.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcus/Documentos/neuralnetworks/Perceptron/C++ /home/marcus/Documentos/neuralnetworks/Perceptron/C++ /home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug /home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug /home/marcus/Documentos/neuralnetworks/Perceptron/C++/cmake-build-debug/CMakeFiles/Perceptron.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Perceptron.dir/depend
 
