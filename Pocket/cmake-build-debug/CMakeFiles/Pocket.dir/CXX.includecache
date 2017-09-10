@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcus/Documentos/neuralnetworks/Pocket/Pocket.cpp
+stdlib.h
+-
+time.h
+-
+Pocket.h
+/home/marcus/Documentos/neuralnetworks/Pocket/Pocket.h
+
+/home/marcus/Documentos/neuralnetworks/Pocket/Pocket.h
+iostream
+-
+
+/home/marcus/Documentos/neuralnetworks/Pocket/main.cpp
+iostream
+-
+Pocket.h
+/home/marcus/Documentos/neuralnetworks/Pocket/Pocket.h
+

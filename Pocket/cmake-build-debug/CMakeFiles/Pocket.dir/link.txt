@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Pocket.dir/main.cpp.o CMakeFiles/Pocket.dir/Pocket.cpp.o  -o Pocket 

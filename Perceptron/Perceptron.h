@@ -17,6 +17,7 @@ private:
     void create(unsigned n, unsigned p);
     void copy(const Perceptron &perceptron);
     void clean();
+    bool allright();
 public:
     inline Perceptron(): dataEntry(NULL), n(0), p(0), weight(NULL){}
     inline Perceptron(unsigned n, unsigned p){create(n,p);}
@@ -24,7 +25,6 @@ public:
     inline ~Perceptron(){clean();}
     void load(unsigned Cn, unsigned Cp, float** matrixTraining);
     void train();
-    bool allright();
     void getVectorWeight();
     float  getResult(float comparisonData[]);
 
